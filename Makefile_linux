@@ -1,5 +1,5 @@
 start: structfe.tab.c lex.yy.c structfe.tab.h
-	gcc y.tab.c lex.yy.c -o ex -lfl
+	gcc structfe.tab.c lex.yy.c -o ex -lfl
 lex.yy.c: ANSI-C.l
 	flex ANSI-C.l
 structfe.tab.c: structfe.y
