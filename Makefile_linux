@@ -6,4 +6,4 @@ structfe.tab.c: structfe.y
 	bison -v -d structfe.y
 	
 clean:
-	rm -f lex.yy.c structfe.tab.c structfe.tab.h ex y.output
+	rm -f lex.yy.c structfe.tab.c structfe.tab.h ex  structfe.output 
