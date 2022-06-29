@@ -7,8 +7,8 @@ IS                      (l|L)*
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-//#include "structfe.tab.h"
-#include "y.tab.h"
+#include "structfe.tab.h"
+//#include "y.tab.h"
 #include "definitions.h"
 
 int column = 1;
